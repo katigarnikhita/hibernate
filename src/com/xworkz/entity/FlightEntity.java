@@ -1,13 +1,12 @@
 package com.xworkz.entity;
 
 import java.io.Serializable;
-import java.lang.annotation.Native;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.hibernate.annotations.Entity;
 
 
 @Entity
@@ -17,11 +16,11 @@ public class FlightEntity implements Serializable {
  @Id
  @Column(name="f_id")
  private int f_id;
- @Native
- 
+
+
  @Column(name="f_name")
  private String f_name;
- 
+
  @Column(name="f_destination")
  private String f_destination;
 
