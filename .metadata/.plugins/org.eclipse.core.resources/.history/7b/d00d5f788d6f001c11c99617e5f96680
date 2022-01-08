@@ -1,0 +1,9 @@
+package com.xworkz.entity.dao;
+
+import com.xworkz.company.CompanyEntity;
+
+public interface CompanyDAO {
+	
+	public void Create(CompanyEntity CompanyEntity);
+
+}

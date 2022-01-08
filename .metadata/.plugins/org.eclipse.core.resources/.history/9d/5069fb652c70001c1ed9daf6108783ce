@@ -1,0 +1,14 @@
+package com.xworkz.company;
+
+import com.xworkz.company.entity.CityEntity;
+
+public class CityRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CityEntity city=new CityEntity(01,"hubli",500000,"lake");
+		city.create(city);
+
+	}
+
+}

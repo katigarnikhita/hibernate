@@ -1,0 +1,23 @@
+package com.xworkz.company;
+
+import com.xworkz.company.dao.CompanyDAO;
+import com.xworkz.company.dao.CompanyDaoimpl;
+import com.xworkz.company.entity.CompanyEntity;
+
+public class CompanyRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CompanyEntity companyEntity=new CompanyEntity();
+		companyEntity.setId(01);
+		companyEntity.setName("apex");
+		companyEntity.setDomain("testing");
+		companyEntity.setWebsite("www.apex.com");
+		
+		CompanyDAO companyDAO=new  CompanyDaoimpl();
+		companyDAO.create(companyEntity);
+		
+	
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.xworkz.company.entity;
+
+public class CountryEntity {
+	private int id;
+	private String name;
+	private int noOfDistricts;
+	private String capitalCity;
+
+}

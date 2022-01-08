@@ -1,0 +1,13 @@
+package com.xworkz.company.dao;
+
+import com.xworkz.company.entity.CompanyEntity;
+
+public class CompanyDaoimpl implements CompanyDAO {
+
+	@Override
+	public void Create(CompanyEntity CompanyEntity) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

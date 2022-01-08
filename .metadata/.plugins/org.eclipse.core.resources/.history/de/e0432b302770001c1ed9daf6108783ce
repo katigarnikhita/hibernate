@@ -1,0 +1,5 @@
+package com.xworkz.patient_entity.entity;
+
+public class PatientEntity {
+
+}

@@ -1,0 +1,5 @@
+package com.xworkz.patient_entity.dao;
+
+public interface PatientInterface {
+
+}
